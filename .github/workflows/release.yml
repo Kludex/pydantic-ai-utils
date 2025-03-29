@@ -1,9 +1,8 @@
 name: Publishing
 
 on:
-  push:
-    branches:
-      - main
+  release:
+    types: [published]
 
 jobs:
   release-build:
